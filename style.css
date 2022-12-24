@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap:100,400,500');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(53, 54, 58);
+    color: white;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    font-size: 81.25%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.googlelogo {
+    width: 480px;
+    height: 240px;
+    background-color: rgb(53, 54, 58);
+}
+
+form {
+    width: 750px;
+    height: 60px;
+    color: #555;
+    display: flex;
+    border-radius: 35px;
+    background-color: white;
+}
+
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 32px;
+    height: 100%;
+    padding: 0;
+    margin: 0 0 0 16px;
+    border: none;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: default;
+    opacity: 0.9;
+}    
+
+input[type="search"] {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 1px 44px 1px 38px;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+input[type="search"]::placeholder {
+    color: rgba(49, 49, 49, 0.74);
+    font-size: 20px;
+} 
+
+.input:focus {
+    padding: none;
+    outline: none;
+}
+
+:focus-visible { outline: none; }
+
+.sub {
+    display: flex;
+    justify-content: end;
+    font-size: 22px;
+}
+
+.Sgmail {
+    font-weight: 200;
+}
+
+.img {
+    padding-left: 10px;
+}
+
+.main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button {
+    background: transparent url("plus-icon.svg") no-repeat center;
+    height: 65px;
+    width: 65px;
+    background-color: rgba(32, 33, 36, 1);
+    border-radius: 50%;
+    margin-top: 50px;
+    border: none;
+}    
+
+.title {
+    font-size: 17px;
+    margin-top: 18px;
+}
