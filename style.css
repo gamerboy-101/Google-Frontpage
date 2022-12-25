@@ -19,17 +19,46 @@ body {
     height: 100%;
 }
 
+.sub {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 22px;
+}
+
+.gmail {
+    font-weight: 200;
+}
+
+.img {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 200; 
+}
+
+.app-icon {
+    padding-right: 15px;
+}
+
+span {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgb(194, 81, 194);
+}
+
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin-top: -83px;
 }
 
 .googlelogo {
-    width: 480px;
-    height: 240px;
+    width: 460px;
+    height: 230px;
     background-color: rgb(53, 54, 58);
 }
 
@@ -61,7 +90,7 @@ input[type="search"] {
     border: none;
     background: transparent;
     margin: 0;
-    padding: 1px 44px 1px 38px;
+    padding: 0 44px 0 38px;
     font-family: inherit;
     font-weight: 500;
 }
@@ -78,25 +107,10 @@ input[type="search"]::placeholder {
 
 :focus-visible { outline: none; }
 
-.sub {
-    display: flex;
-    justify-content: end;
-    font-size: 22px;
-}
-
-.Sgmail {
-    font-weight: 200;
-}
-
-.img {
-    padding-left: 10px;
-}
-
 .main div {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 button {
